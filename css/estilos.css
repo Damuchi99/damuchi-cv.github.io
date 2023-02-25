@@ -145,19 +145,20 @@
     margin: auto;
 }
 
-.habilidades-y-conocimientos .contenido .habilidades{
+/*.habilidades-y-conocimientos .contenido .habilidades{
     margin-bottom: 20px;
 }
 
 .habilidades-y-conocimientos .contenido .conocimientos{
     margin-bottom: 20px;
-}
+}*/
 
 .habilidades-y-conocimientos .contenido .titulo{
     display: inline-block;
     font-weight: bold;
     border: 5px solid #007fff;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .habilidades-y-conocimientos .contenido h3{
