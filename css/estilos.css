@@ -72,44 +72,14 @@
 }
 
 .inicio .contenido #info h1{
-    letter-spacing: 5px;
     font-weight: bold;
+    letter-spacing: 5px;
 }
 
 .inicio .contenido #info h2{
-    font-weight: normal;
     margin-top: -10px;
+    font-weight: normal;
     letter-spacing: 2px;
-}
-
-@media (max-width: 767px){
-    .inicio .contenido #info h1{
-        font-size: 40px;
-    }
-
-    .inicio .contenido #info h2{
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px){
-    .inicio .contenido #info h1{
-        font-size: 60px;
-    }
-
-    .inicio .contenido #info h2{
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 1025px){
-    .inicio .contenido #info h1{
-        font-size: 100px;
-    }
-
-    .inicio .contenido #info h2{
-        font-size: 20px;
-    }
 }
 
 /*-----SOBRE MI-----*/
@@ -188,24 +158,6 @@
     font-weight: bold;
     border: 5px solid #007fff;
     padding: 10px;
-}
-
-@media (max-width: 767px){
-    .habilidades-y-conocimientos .contenido .titulo{
-        font-size: 28px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px){
-    .habilidades-y-conocimientos .contenido .titulo{
-        font-size: 32px;
-    }
-}
-
-@media (min-width: 1025px){
-    .habilidades-y-conocimientos .contenido .titulo{
-        font-size: 44px;
-    }
 }
 
 .habilidades-y-conocimientos .contenido h3{
@@ -314,4 +266,48 @@
     font-weight: bold;
     font-family: "Roboto Slab";
     color: white;
+}
+
+/*-----MEDIA QUERIES-----*/
+
+@media (max-width: 767px){
+    .inicio .contenido #info h1{
+        font-size: 40px;
+    }
+
+    .inicio .contenido #info h2{
+        font-size: 14px;
+    }
+    
+    .habilidades-y-conocimientos .contenido .titulo{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .inicio .contenido #info h1{
+        font-size: 60px;
+    }
+
+    .inicio .contenido #info h2{
+        font-size: 20px;
+    }
+    
+    .habilidades-y-conocimientos .contenido .titulo{
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 1025px){
+    .inicio .contenido #info h1{
+        font-size: 100px;
+    }
+
+    .inicio .contenido #info h2{
+        font-size: 20px;
+    }
+    
+    .habilidades-y-conocimientos .contenido .titulo{
+        font-size: 44px;
+    }
 }
