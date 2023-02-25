@@ -1,0 +1,317 @@
+/*.row {
+    border: 3px solid black;
+}
+
+#perfil {
+    background-color: rgb(0, 101, 217);
+    width: auto;
+    /*border: 50px solid rgb(0, 101, 217);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#nombreyprofesion{
+    background-color: lightgray;
+    /*border: 2px solid black;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&family=Roboto:wght@300;400;500;700&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+*{
+    font-family: "Titillium Web";
+}
+
+/*-----INICIO-----*/
+
+.inicio{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), 
+    url("../images/escritorio-negocios-articulos-oficina.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 40px 300px 40px;
+}
+
+.inicio .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.inicio .contenido header{
+    padding: 60px;
+}
+
+.inicio .contenido header nav{
+    position: fixed;
+    margin: -80px 0 0 -50px;
+    background-color: #007fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    display: none;
+}
+
+.inicio .contenido header .menu a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.inicio .contenido header .menu-nav{
+    position: fixed;
+    margin: -80px 0 0 -100px;
+    background-color: #007fff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.inicio .contenido #info h1{
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.inicio .contenido #info h2{
+    font-weight: normal;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 767px){
+    .inicio .contenido #info h1{
+        font-size: 40px;
+    }
+
+    .inicio .contenido #info h2{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .inicio .contenido #info h1{
+        font-size: 60px;
+    }
+
+    .inicio .contenido #info h2{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1025px){
+    .inicio .contenido #info h1{
+        font-size: 100px;
+    }
+
+    .inicio .contenido #info h2{
+        font-size: 20px;
+    }
+}
+
+/*-----SOBRE MI-----*/
+
+.sobremi{
+    background-color: white;
+    padding: 100px 0 130px 0;
+}
+
+.sobremi .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.sobremi .contenido .titulo{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sobremi .contenido h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sobremi .contenido .perfil{
+    margin-bottom: 30px;
+}
+
+.sobremi .contenido .objetivo{
+    color: #007fff;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.sobremi .contenido p{
+    font-family: "Roboto";
+    max-width: 700px;
+    margin: auto;
+    color: #004182;
+}
+
+#fotoperfil img{
+    max-width: 225px;
+    border-radius: 50%;
+    border: 5px solid #007fff;
+}
+
+/*-----HABILIDADES Y CONOCIMIENTO-----*/
+
+.habilidades-y-conocimientos{
+    padding: 100px 0 100px 0;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), 
+    url("../images/Bloque-de-codigo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.habilidades-y-conocimientos .contenido {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.habilidades-y-conocimientos .contenido .habilidades{
+    margin-bottom: 20px;
+}
+
+.habilidades-y-conocimientos .contenido .conocimientos{
+    margin-bottom: 20px;
+}
+
+.habilidades-y-conocimientos .contenido .titulo{
+    display: inline-block;
+    font-weight: bold;
+    border: 5px solid #007fff;
+    padding: 10px;
+}
+
+@media (max-width: 767px){
+    .habilidades-y-conocimientos .contenido .titulo{
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .habilidades-y-conocimientos .contenido .titulo{
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 1025px){
+    .habilidades-y-conocimientos .contenido .titulo{
+        font-size: 44px;
+    }
+}
+
+.habilidades-y-conocimientos .contenido h3{
+    margin: 20px 0 20px 0;
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+.habilidades-y-conocimientos .contenido h5{
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/*-----RESUMEN-----*/
+
+.resumen {
+    padding: 100px 0 100px 0;
+}
+
+.resumen .contenido {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.resumen .contenido .titulo{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.resumen .contenido .subtitulo{
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+.resumen .contenido .info{
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.resumen .contenido .info .titulo-seccion{
+    display: inline-block;
+    color: #007fff;
+    font-weight: bold;
+    font-family: "Roboto Slab";
+    border: 2px solid #007fff;
+    padding: 10px;
+}
+
+.resumen .contenido .info h3{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.resumen .contenido .info h4, .resumen .contenido .info h5{
+    font-weight: bold;
+}
+
+.resumen .contenido .info p{
+    font-family: "Roboto";
+}
+
+/*-----CONTACTO-----*/
+
+.contacto{
+    background-color: rgb(50, 50, 50);
+    padding: 100px 0 100px 0;
+}
+
+.contacto .contenido{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contacto .contenido .titulo{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.contacto .contenido h3{
+    font-family: "Roboto";
+}
+
+.contacto .contenido .row .col-lg-4{
+    margin-top: 50px;
+}
+
+.contacto .contenido .row .col-lg-4 h2{
+    color: #007fff;
+    font-family: "Roboto Slab";
+}
+
+.contacto .contenido .row .col-lg-4 .info-contacto{
+    font-family: "Roboto Slab";
+    letter-spacing: 1px;
+}
+
+.contacto .contenido .row .col-lg-4 .info-contacto a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Roboto Slab";
+    color: white;
+}
